@@ -1,0 +1,55 @@
+.modal-title {
+    width: 100%;
+    display: inline-block;
+    margin: auto !important;
+    text-align: center;
+    &::first-line {
+        text-transform: capitalize !important;
+    }
+}
+
+.modalPokemon {
+    .body {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        .status {
+            width: 100%;
+            display: flex;
+            .dataStatus {
+                border: solid 0.2px #b2b2b2;
+                border-radius: 10px;
+                padding: 10px;
+                width: inherit;
+                margin: 0 10px;
+                h5 {
+                    width: 100%;
+                    font-size: 18px;
+                }
+            }
+        }
+        .modalImgPokemon {
+            border: solid 0.2px #b2b2b2;
+            border-radius: 10px;
+            padding: 10px;
+            background-color: #ececec;
+        }
+        .DivAbility {
+            display: flex;
+            padding: 10px;
+            border: #b2b2b2 solid 0.2px;
+            width: 100%;
+            border-radius: 10px;
+            flex-wrap: wrap;
+            margin: 15px 0;
+            text-align: center;
+            h5 {
+                width: 100%;
+                font-size: 18px;
+            }
+            .ability {
+                margin: 5px;
+            }
+        }
+    }
+}

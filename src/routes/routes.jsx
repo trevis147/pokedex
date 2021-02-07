@@ -7,7 +7,7 @@ export default function Routes() {
         <BrowserRouter>
             <Switch>
                 <Suspense fallback={<h1>Loding...</h1>}>
-                    <Route exact path="/home" component={() => <Home />} />
+                    <Route exact path="/" component={() => <Home />} />
                 </Suspense>
             </Switch>
         </BrowserRouter>

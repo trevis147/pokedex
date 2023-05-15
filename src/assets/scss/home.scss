@@ -101,6 +101,16 @@
                 background-color: #5f6bff;
                 margin: 0 10px;
             }
+            .filterPokemon_btn{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                height: 45px;
+                button{
+                    height: 45px;
+                    width: max-content;
+                }
+            }
         }
         .filterAbility {
             display: flex;

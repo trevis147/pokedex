@@ -89,8 +89,10 @@ export default function Home() {
             <div className="filter">
                 <div className="filterPokemon">
                     <Label>Nome ou Número:</Label>
-                    <Input className="inputFilter" value={filter} onChange={(e) => setFilter(e.target.value)} />
-                    <Button className="btnFilter" onClick={() => GetPokemonByIdOrName()} >🔎 Buscar</Button>
+                    <div className="filterPokemon_btn">
+                        <Input className="inputFilter" value={filter} onChange={(e) => setFilter(e.target.value)} />
+                        <Button className="btnFilter" onClick={() => GetPokemonByIdOrName()} >🔎 Buscar</Button>
+                    </div>
                 </div>
                 <div className="filterAbility">
                 <Label>Habilidade:</Label>
